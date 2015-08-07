@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tv_title_ptOFsp"
+        android:text="Part of speech"
+        android:gravity="center"
+        android:layout_weight=".05"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+    <TextView
+        android:id="@+id/tv_ptOFsp"
+        android:text="id"
+        android:gravity="center"
+        android:layout_weight=".15"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+    <View style="@style/DividerHorizontal"
+        android:layout_weight=".02" />
+    <TextView
+        android:id="@+id/tv_word"
+        android:text="word"
+        android:gravity="center"
+        android:layout_weight=".6"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+    <View style="@style/DividerHorizontal"
+        android:layout_weight=".02" />
+    <Button
+        android:id="@+id/btn_edit"
+        android:text="Edit"
+        android:layout_weight=".16"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+</LinearLayout>
